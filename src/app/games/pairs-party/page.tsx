@@ -2,13 +2,13 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { PawPairsPartyGame } from "@/components/games/PawPairsParty";
+import { PairsPartyGame } from "@/components/games/PairsParty";
 
-export default function PawPairsPartyPage() {
+export default function PairsPartyPage() {
 	return (
 		<div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-100 to-indigo-200 p-4">
-			<h1 className="text-4xl font-bold text-indigo-700 mb-8">Paw Pairs Party</h1>
-			<PawPairsPartyGame />
+			<h1 className="text-4xl font-bold text-indigo-700 mb-8">Emoji Pairs Party</h1>
+			<PairsPartyGame />
 		</div>
 	);
 }

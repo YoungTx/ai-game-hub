@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from './PawPairsParty.module.css';
+import styles from './PairsParty.module.css';
 
 const easyEmojis = [
   '🍎', '🍌', '🍒', '🍓', '🍊', '🍋', '🍉', '🍇', '🍍', '🥝',
@@ -57,7 +57,7 @@ const calculateGridSize = (level: number): number => {
   return 10;  // 10x10 for level 10 and above
 };
 
-export const PawPairsPartyGame: React.FC = () => {
+export const PairsPartyGame: React.FC = () => {
 	const [cards, setCards] = useState<Card[]>([]);
 	const [flippedIndices, setFlippedIndices] = useState<number[]>([]);
 	const [matchedPairs, setMatchedPairs] = useState<string[]>([]);

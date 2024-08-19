@@ -17,13 +17,13 @@ export default function Header() {
 	return (
 		<header className="bg-white shadow-sm relative z-10">
 			<div className="container mx-auto px-4 py-4 flex justify-between items-center">
-				<Link href="/public" className="flex items-center space-x-2">
+				<Link href="/" className="flex items-center space-x-2">
 					<PixelIcon className="w-8 h-8 text-indigo-600" />
 					<h1 className={`${poppins.className} text-xl font-bold text-gray-800`}>AI Play Hub</h1>
 				</Link>
 				<nav>
 					<ul className="flex space-x-6">
-						<li><Link href="/public" className="text-gray-600 hover:text-indigo-600 transition-colors">Home</Link></li>
+						<li><Link href="/" className="text-gray-600 hover:text-indigo-600 transition-colors">Home</Link></li>
 						<li><Link href="/games" className="text-gray-600 hover:text-indigo-600 transition-colors">All Games</Link></li>
 						<li><Link href="/categories" className="text-gray-600 hover:text-indigo-600 transition-colors">Categories</Link></li>
 						<li><Link href="/about" className="text-gray-600 hover:text-indigo-600 transition-colors">About</Link></li>
