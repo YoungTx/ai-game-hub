@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  gap: 8px;
+  width: 80%;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+
+.gridCols4 { grid-template-columns: repeat(4, 1fr); }
+.gridCols6 { grid-template-columns: repeat(6, 1fr); }
+.gridCols8 { grid-template-columns: repeat(8, 1fr); }
+.gridCols10 { grid-template-columns: repeat(10, 1fr); }
+
+.card {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.cardFlipped {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardUnflipped {
+  background-color: #6366f1;
+}
+
+.cardUnflipped:hover {
+  background-color: #4f46e5;
+}

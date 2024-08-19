@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+/* @layer components {
     .game-card {
         @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
     }
@@ -22,4 +22,4 @@
     .game-card-description {
         @apply text-sm text-gray-600;
     }
-}
+} */
